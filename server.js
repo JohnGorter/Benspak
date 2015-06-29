@@ -27,7 +27,7 @@ function getPriceForModel(length, width, height, amount, fn) {
 console.log("cotinue on.."); 
 /*  
 // create a new user called chris
-*/
+*/  
 
 app.get('/benspak/price/:length/:width/:height/:amount', function(req, res){
     var length = parseInt(req.params.length);
